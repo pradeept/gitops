@@ -21,4 +21,4 @@ jobs:
         
   Versioning:
     needs: [build]
-    uses: github.com/pradeept/gitops/.github/workflows/versioning.yaml@workflow
+    uses: pradeept/gitops/.github/workflows/versioning.yaml@workflow
