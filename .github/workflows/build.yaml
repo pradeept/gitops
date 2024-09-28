@@ -20,4 +20,4 @@ jobs:
           flake8: true
         
       - name: Versioning 
-        uses: github.com/pradeept/gitops/.github/workflows/versioning.yaml@workflow
+        uses: pradeept/gitops/.github/workflows/versioning.yaml@workflow
