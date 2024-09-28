@@ -1,0 +1,10 @@
+name: Versioning
+
+on:
+  workflow_call:
+    
+jobs:
+  Create-Version:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo "Something"
