@@ -19,5 +19,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           flake8: true
         
-      - name: Versioning 
-        uses: pradeept/gitops/.github/workflows/versioning.yaml@workflow
+  Versioning:
+    needs: [build]
+    uses: github.com/pradeept/gitops/.github/workflows/versioning.yaml@workflow
